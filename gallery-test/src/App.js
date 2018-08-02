@@ -55,7 +55,9 @@ class App extends Component {
             <Measure
               bounds
               onResize={contentRect =>
-                this.setState({ width: contentRect.bounds.width })
+                this.setState({
+                  width: contentRect.bounds.width
+                })
               }
             >
               {({ measureRef }) => {
@@ -91,6 +93,8 @@ class App extends Component {
             onClickNext={this.gotoNext}
             currentImage={currentImage}
             isOpen={lightboxIsOpen}
+            width={1280}
+            backdropClosesModal={true}
           />
         </div>
       </div>

@@ -20,7 +20,7 @@ body {
   max-width: 760px;
   margin: 0 auto;
   font-weight: 800;
-  padding-top: 30px;
+  padding-top: 40px;
   font-size: 3.2em;
   line-height: 1em;
 }
@@ -31,6 +31,7 @@ body {
   color: #2c2c2c;
   text-align: center;
   font-family: 'Playfair Display', serif;
+  margin-bottom: 50px;
 }
 .subtitle:before, .subtitle:after {
   content: '—';
@@ -38,6 +39,5 @@ body {
 }
 
 .gallery-wrapper {
-  margin-top: 40px;
   margin-bottom: 50px;
 }
