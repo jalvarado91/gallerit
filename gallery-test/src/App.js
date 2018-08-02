@@ -68,7 +68,7 @@ class App extends Component {
                 if (width >= 480) {
                   columns = 2;
                 }
-                if (width >= 1024) {
+                if (width >= 1440) {
                   columns = 3;
                 }
                 if (width >= 1824) {
